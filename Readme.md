@@ -52,7 +52,7 @@ Student-Management-System/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/student-management-system.git
+git clone https://github.com/ashishpatel3630-art/Student_Manage_flask
 ```
 
 ### 2. Navigate to the project folder
