@@ -63,18 +63,7 @@ cd student-management-system
 
 ### 3. Create a virtual environment (Optional)
 
-**Windows**
 
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**macOS/Linux**
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
 ```
 
 ### 4. Install dependencies
