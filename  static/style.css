@@ -1,0 +1,106 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Title */
+h1, h2 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+/* Glass Card */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+a, button {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+/* Add Button */
+.btn-add {
+    background: #22c55e;
+}
+
+.btn-add:hover {
+    background: #16a34a;
+}
+
+/* Edit Button */
+.btn-edit {
+    background: #facc15;
+    color: black;
+}
+
+.btn-edit:hover {
+    background: #eab308;
+}
+
+/* Delete Button */
+.btn-delete {
+    background: #ef4444;
+}
+
+.btn-delete:hover {
+    background: #dc2626;
+}
+
+/* Form Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    background: #38bdf8;
+    color: black;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* Student List */
+.student-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background: rgba(255,255,255,0.06);
+    border-radius: 12px;
+}
